@@ -16,6 +16,6 @@ steps:
   inputs:
     containerregistrytype: 'Azure Container Registry'
     azureSubscription: 'Azure subscription 1(1)(f5f60c5b-df09-4c5d-bb90-bbb3bca9681c)'
-    dockerComposeFile: '**/docker/docker-compose.yml'
+    dockerComposeFile: '**/docker-compose.yml'
     action: 'Run a Docker Compose command'
     dockerComposeCommand: 'up -d --build'
