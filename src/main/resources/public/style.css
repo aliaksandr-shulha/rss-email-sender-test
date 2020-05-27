@@ -1,0 +1,21 @@
+.contentContainer{
+    width: 90%;
+    margin: 0 auto;
+}
+.contentContainer > div{
+    display: inline-block;
+    width: 45%;
+}
+#rssList{
+    margin: 0 0;
+    width: 45%;
+}
+#rss{
+    width: 80%;
+}
+.contentContainer > div > input{
+    width: 80%;
+}
+.contentContainer:first-of-type> div:last-child{
+    float: right;
+}

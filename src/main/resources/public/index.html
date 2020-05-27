@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" type="text/javascript"></script>
+    <title>Rss test</title>
+</head>
+<body>
+<div class="contentContainer">
+    <div>
+        <label for="rss">
+            Enter rss: <input type="text" id="rss" placeholder="Rss link here..">
+        </label>
+    </div>
+    <div>
+        <label for="email">
+            E-mail: <input type="email" id="email" placeholder="E-mail here.." onblur="emailEnter()">
+        </label>
+    </div>
+</div>
+<div class="contentContainer">
+    <div id="rssContent">
+        <div>RSS - CONTENT</div>
+    </div>
+    <div id="rssList" style="position: absolute">
+        <div class="contentContainer">
+                <button id="saveButton" onclick="save()">Save</button>
+                <button id="removeButton" onclick="remove()">Remove</button>
+                <button id="sendButton" onclick="send()">Send</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
